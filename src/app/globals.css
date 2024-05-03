@@ -13,6 +13,13 @@
     linear-gradient(106deg, #4ef0f0 0%, #05c580 100%);
 }
 
+.head-txt {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: -1.7px;
+}
+
 .text-cl {
   background-image: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%),
     linear-gradient(106deg, #4ef0f0 0%, #05c580 100%);
@@ -20,6 +27,20 @@
   -webkit-background-clip: text;
   -moz-background-clip: text;
   color: transparent;
+}
+
+.text-bt {
+  background: var(
+    --linear-1,
+    linear-gradient(106deg, #ae68fa 0%, #f1966e 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-gradient {
+  border: 1px solid var(--linear-1, #ae68fa);
 }
 /* :root {
   --foreground-rgb: 0, 0, 0;

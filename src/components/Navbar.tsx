@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { duru_Sans, poppins } from "../ui/font";
 import { links } from "../data";
@@ -9,8 +9,8 @@ import { usePathname } from "next/navigation";
 export default function Navbar() {
   const pathname = usePathname();
   return (
-    <nav className="w-full flex items-center justify-between bg-transparent p-4">
-      <div className="logo flex items-center justify-center gap-2">
+    <nav className="w-full flex items-center justify-between bg-transparent px-[9rem] py-[3rem]">
+      <Link href={"/"} className="logo flex items-center justify-center gap-2">
         <Image
           width={25}
           height={25}
@@ -18,7 +18,7 @@ export default function Navbar() {
           alt="Screenshots of the dashboard project showing desktop version"
         />
         <h4 className="font-medium text-base text-[#3E4581]">Marca.io</h4>
-      </div>
+      </Link>
       <div className="menu flex items-center justify-center gap-10">
         {links.map(({ id, name, link }) => {
           return (
