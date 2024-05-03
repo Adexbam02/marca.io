@@ -7,8 +7,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <header className="flex items-center justify-between px-[9rem] py-[1rem]">
-        <div className="p-6 flex flex-col items-start gap-3">
+      {/* px-[9rem] py-[1rem] */}
+      <header className="flex flex-col items-center text-center justify-between px-[4rem] py-[0rem]">
+        <div className="p-6 flex flex-col items-center justify-center gap-3">
           <h1 className={`${poppins.className} max-w-[640px] text-cl head-txt`}>
             Amplify your brand voice
             {/* Tell a better <br /> brand story */}
@@ -32,14 +33,20 @@ export default function Home() {
             </Link>
           </span>
         </div>
-        <div className="p-6 flex items-center justify-center gap-1">
+        {/* <div className="p-6 flex items-center justify-center gap-0">
           <div className="flex flex-col items-end justify-end gap-3">
             <CardOne />
             <CardThree />
+            
           </div>
           <div className="flex flex-col items-center justify-center gap-3">
             <CardTwo />
             <Image src="/followers.png" width={300} height={300} alt="" />
+          </div>
+        </div> */}
+        <div className="bg-gray-400/20 rounded-lg shadow-md backdrop-blur p-[0.3rem]">
+          <div className="bg-gray-400/10 rounded-lg shadow-md backdrop-blur p-1">
+            <Image src="/Dashboard.jpg" width={400} height={400} alt="" />
           </div>
         </div>
       </header>

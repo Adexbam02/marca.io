@@ -9,7 +9,7 @@ import { usePathname } from "next/navigation";
 export default function Navbar() {
   const pathname = usePathname();
   return (
-    <nav className="w-full flex items-center justify-between bg-transparent px-[9rem] py-[3rem]">
+    <nav className="w-full flex items-center justify-between bg-transparent px-[4rem] py-[2rem]">
       <Link href={"/"} className="logo flex items-center justify-center gap-2">
         <Image
           width={25}
@@ -19,7 +19,7 @@ export default function Navbar() {
         />
         <h4 className="font-medium text-base text-[#3E4581]">Marca.io</h4>
       </Link>
-      <div className="menu flex items-center justify-center gap-10">
+      <div className="hidden lg:flex items-center justify-center gap-10 ">
         {links.map(({ id, name, link }) => {
           return (
             <ul key={id}>
