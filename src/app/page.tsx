@@ -1,10 +1,13 @@
 import Link from "next/link";
 import { duru_Sans, poppins, roboto } from "../ui/font";
-
+import CardOne from "../ui/CardOne";
+import CardTwo from "../ui/CardTwo";
+import CardThree from "../ui/CardThree";
+import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <header className="flex items-center bg-ed-300 justify-between px-[9rem] py-[1rem]">
+      <header className="flex items-center justify-between px-[9rem] py-[1rem]">
         <div className="p-6 flex flex-col items-start gap-3">
           <h1 className={`${poppins.className} max-w-[640px] text-cl head-txt`}>
             Amplify your brand voice
@@ -29,7 +32,16 @@ export default function Home() {
             </Link>
           </span>
         </div>
-        <div>stat</div>
+        <div className="p-6 flex items-center justify-center gap-1">
+          <div className="flex flex-col items-end justify-end gap-3">
+            <CardOne />
+            <CardThree />
+          </div>
+          <div className="flex flex-col items-center justify-center gap-3">
+            <CardTwo />
+            <Image src="/followers.png" width={300} height={300} alt="" />
+          </div>
+        </div>
       </header>
     </>
   );

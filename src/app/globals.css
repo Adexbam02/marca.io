@@ -8,6 +8,12 @@
   /* width: 90vh; */
 }
 
+.bgg {
+  background-image: url("../../public/ss.png");
+  /* height: 10vh; */
+  /* width: 90vh; */
+}
+
 .gradient-bg {
   background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%),
     linear-gradient(106deg, #4ef0f0 0%, #05c580 100%);
