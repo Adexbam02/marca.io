@@ -12,6 +12,15 @@
   background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%),
     linear-gradient(106deg, #4ef0f0 0%, #05c580 100%);
 }
+
+.text-cl {
+  background-image: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%),
+    linear-gradient(106deg, #4ef0f0 0%, #05c580 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+}
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
