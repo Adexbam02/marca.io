@@ -1,23 +1,28 @@
+"use client";
 import Link from "next/link";
-import { duru_Sans, poppins, roboto } from "../ui/font";
-import CardOne from "../ui/CardOne";
-import CardTwo from "../ui/CardTwo";
-import CardThree from "../ui/CardThree";
 import Image from "next/image";
+
+import { duru_Sans, poppins, roboto, exo } from "../ui/font";
+
 import LogosBar from "../components/LogosBar";
+import Offer from "../components/Offer";
+
 export default function Home() {
   return (
     <>
       {/* px-[9rem] py-[1rem] */}
-      <header className="flex flex-col md:flex-row md:px-[9rem] md:py-[4rem] items-center  justify-between px-[4rem] py-[0rem]">
-        <div className="p-6 flex flex-col items-center justify-center md:items-start gap-3">
-          <h1 className={`${poppins.className} text-center md:text-left max-w-[640px] text-cl text-[50px] md:text-[70px] head-txt`}>
-            Amplify your brand voice
-            {/* Tell a better <br /> brand story */}
+      <header className="flex flex-col  md:px-[9rem] md:py-[1rem] items-center  justify-between px-[4rem] py-[0rem]">
+        <div className="p-6 flex flex-col items-center justify-center  gap-3">
+          <h1
+            className={`${exo.className} text-center  max-w-[700px] text-cl text-[50px] md:text-[70px] font-extrabold leading-[3]`}
+          >
+            Amplify your brand voice!
           </h1>
-          <p className={`max-w-[540px] ${duru_Sans.className}`}>
-            Warrant present garrets limited cordial in inquiry to. Supported me
-            sweetness behaviour shameless excellent so arranging.
+          <p className={`max-w-[625px] ${duru_Sans.className} text-center `}>
+            Welcome to our <span className="text-cl font-bold">Marca.io</span>,
+            where creativity meets strategy to craft unforgettable brands. From
+            startups to enterprises, we are here to elevate your vision with
+            precision and purpose. Let`&apos;`s redefine your story together.
           </p>
           <span className="flex items-center justify-center gap-4">
             <Link
@@ -45,13 +50,18 @@ export default function Home() {
             <Image src="/followers.png" width={300} height={300} alt="" />
           </div>
         </div> */}
-        <div className="bg-gray-400/20 rounded-lg shadow-md backdrop-blur p-[0.3rem]">
-          <div className="bg-gray-400/10 rounded-lg shadow-md backdrop-blur p-1">
-            <Image src="/Dashboard.jpg" width={400} height={400} alt="" className="md:w-[50rem]" />
-          </div>
+        <div className={` bg-gray-400/20 shadow-md backdrop-blur p-[0.3rem]`}>
+          <Image
+            src="/Dashboard4.svg"
+            width={500}
+            height={500}
+            alt=""
+            className="md:w-[60rem] p-1"
+          />
         </div>
       </header>
       <LogosBar />
+      <Offer />
     </>
   );
 }

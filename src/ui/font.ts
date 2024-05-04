@@ -1,4 +1,4 @@
-import { Duru_Sans, Poppins, Roboto } from "next/font/google";
+import { Duru_Sans, Poppins, Roboto, Exo_2 } from "next/font/google";
 
 export const duru_Sans = Duru_Sans({
   subsets: ["latin"],
@@ -6,6 +6,11 @@ export const duru_Sans = Duru_Sans({
 });
 
 export const poppins = Poppins({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin", "latin-ext"],
+});
+
+export const exo = Exo_2({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin", "latin-ext"],
 });
