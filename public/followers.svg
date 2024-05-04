@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="388" height="151" viewBox="0 0 388 151">
+  <defs>
+    <filter id="BG" x="0" y="0" width="388" height="151" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a3a0fb"/>
+      <stop offset="1" stop-color="#a3a0fb" stop-opacity="0.502"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_269" data-name="Group 269" transform="translate(-11625 3069)">
+    <g id="Total_Sales" data-name="Total Sales" transform="translate(10424 -3378)">
+      <g transform="matrix(1, 0, 0, 1, 1201, 309)" filter="url(#BG)">
+        <rect id="BG-2" data-name="BG" width="370" height="133" transform="translate(9 7)" fill="#fff"/>
+      </g>
+      <path id="Bar_Chart" data-name="Bar Chart" d="M98,119V101h6v18Zm-9,0V89h8v30Zm-9,0V99h8v20Zm-9,0V106h8v13Zm-9,0V94h8v25Zm-9,0V84h8v35Zm-9,0V94h8v25Zm-9,0V99h8v20Zm-9,0V79h8v40Zm-9,0V89h8v30Zm-7,0V101h6v18Zm-9,0V89H9v30Zm-9,0V99H0v20Z" transform="translate(1456 310)" fill="url(#linear-gradient)"/>
+      <g id="Naked_Label" data-name="Naked Label">
+        <text id="_13.8_" data-name="13.8%" transform="translate(1242 426)" fill="#3cc480" font-size="11" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">13.8%</tspan></text>
+        <path id="UpArrow" d="M9,9V4A.945.945,0,0,0,8,3H8A.945.945,0,0,0,7,4V9H4l4,4,4-4Z" transform="translate(1242 430) rotate(180)" fill="#3cc480"/>
+      </g>
+      <text id="_2453" data-name="2453" transform="translate(1230 408)" fill="#4d4f5c" font-size="25" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">2453</tspan></text>
+      <text id="New_Followers" data-name="New Followers" transform="translate(1230 351)" fill="#43425d" font-size="15" font-family="SegoeUI, Segoe UI" opacity="0.5"><tspan x="0" y="0">New Followers</tspan></text>
+    </g>
+  </g>
+</svg>

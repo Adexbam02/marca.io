@@ -10,6 +10,7 @@
 
 .cbg {
   background-image: url("../../public/curvedBg.svg");
+  background-repeat: no-repeat;
   /* height: 10vh; */
   /* width: 90vh; */
 }

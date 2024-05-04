@@ -6,6 +6,7 @@ import { duru_Sans, poppins, roboto, exo } from "../ui/font";
 
 import LogosBar from "../components/LogosBar";
 import Offer from "../components/Offer";
+import How from "../components/How";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <header className="flex flex-col  md:px-[9rem] md:py-[1rem] items-center  justify-between px-[4rem] py-[0rem]">
         <div className="p-6 flex flex-col items-center justify-center  gap-3">
           <h1
-            className={`${exo.className} text-center  max-w-[700px] text-cl text-[50px] md:text-[70px] font-extrabold leading-[3]`}
+            className={`${exo.className} text-center  max-w-[700px] text-cl text-[50px] md:text-[70px] font-extrabold leading-none`}
           >
             Amplify your brand voice!
           </h1>
@@ -62,6 +63,7 @@ export default function Home() {
       </header>
       <LogosBar />
       <Offer />
+      <How />
     </>
   );
 }
