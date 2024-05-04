@@ -20,3 +20,26 @@ export const links = [
     link: "/contact-us",
   },
 ];
+
+export const logos = [
+  {
+    id: 1,
+    src: "/brightpearl.png",
+  },
+  {
+    id: 2,
+    src: "/pearlfisher.png",
+  },
+  {
+    id: 3,
+    src: "/umbraco.png",
+  },
+  {
+    id: 4,
+    src: "/planday.png",
+  },
+  {
+    id: 5,
+    src: "/brightpearl.png",
+  },
+];

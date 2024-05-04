@@ -4,13 +4,14 @@ import CardOne from "../ui/CardOne";
 import CardTwo from "../ui/CardTwo";
 import CardThree from "../ui/CardThree";
 import Image from "next/image";
+import LogosBar from "../components/LogosBar";
 export default function Home() {
   return (
     <>
       {/* px-[9rem] py-[1rem] */}
-      <header className="flex flex-col items-center text-center justify-between px-[4rem] py-[0rem]">
-        <div className="p-6 flex flex-col items-center justify-center gap-3">
-          <h1 className={`${poppins.className} max-w-[640px] text-cl head-txt`}>
+      <header className="flex flex-col md:flex-row md:px-[9rem] md:py-[4rem] items-center  justify-between px-[4rem] py-[0rem]">
+        <div className="p-6 flex flex-col items-center justify-center md:items-start gap-3">
+          <h1 className={`${poppins.className} text-center md:text-left max-w-[640px] text-cl text-[50px] md:text-[70px] head-txt`}>
             Amplify your brand voice
             {/* Tell a better <br /> brand story */}
           </h1>
@@ -46,10 +47,11 @@ export default function Home() {
         </div> */}
         <div className="bg-gray-400/20 rounded-lg shadow-md backdrop-blur p-[0.3rem]">
           <div className="bg-gray-400/10 rounded-lg shadow-md backdrop-blur p-1">
-            <Image src="/Dashboard.jpg" width={400} height={400} alt="" />
+            <Image src="/Dashboard.jpg" width={400} height={400} alt="" className="md:w-[50rem]" />
           </div>
         </div>
       </header>
+      <LogosBar />
     </>
   );
 }
