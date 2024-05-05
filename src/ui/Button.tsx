@@ -1,7 +1,12 @@
 import Link from "next/link";
 import { poppins } from "./font";
 
-export default function Button({ button, link }) {
+interface ButtonProps {
+  button: string;
+  link: string;
+}
+
+export default function Button({ button, link }: ButtonProps) {
   const btnHover = `hover:gradient-bg`;
   return (
     <Link
