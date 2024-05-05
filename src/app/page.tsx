@@ -1,8 +1,4 @@
-"use client";
-import Link from "next/link";
-import Image from "next/image";
 
-import { duru_Sans, poppins, roboto, exo } from "../ui/font";
 
 import LogosBar from "../components/LogosBar";
 import Offer from "../components/Offer";
