@@ -7,6 +7,8 @@ import Pricing from "../components/Pricing";
 import Header from "../ui/Header";
 import Testimonial from "../components/Testimonial";
 import Stat from "../components/Stat";
+import CTA from "../components/CTA";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +23,7 @@ export default function Home() {
         <Pricing />
         <Testimonial />
         <Stat />
+        <CTA />
       </main>
     </>
   );

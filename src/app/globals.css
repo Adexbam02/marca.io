@@ -6,6 +6,11 @@ section{
   margin-top: 3.5rem;
 }
 
+.placeholder{
+  color: #9F9FAC;
+  
+}
+
 .bg {
   background-image: url("../../public/bg-line.png");
   /* height: 10vh; */
