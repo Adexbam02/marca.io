@@ -1,6 +1,9 @@
 import Image from "next/image";
 
-export default function CardOne({ avatar }) {
+interface AvatarProps {
+  avatar: string;
+}
+export default function CardOne({ avatar }: AvatarProps) {
   return (
     <div>
       <div className="flex items-center justify-between gap-4 p-2 bg-white rounded-md shadow-md">
