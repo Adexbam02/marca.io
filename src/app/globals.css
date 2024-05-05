@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+section{
+  margin-top: 3.5rem;
+}
+
 .bg {
   background-image: url("../../public/bg-line.png");
   /* height: 10vh; */

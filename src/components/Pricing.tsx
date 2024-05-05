@@ -5,12 +5,12 @@ import PricingCard from "../ui/PricingCard";
 
 export default function Pricing() {
   return (
-    <section className="flex flex-col items-center justify-center gap-3">
-      <div className="text-center mb-8">
+    <section className="px-[4rem] md:px-[9rem] flex flex-col items-center justify-center gap-3">
+      <div className="flex flex-col items-center justify-center gap-3 text-center mb-8">
         <h1 className={`${exo.className} text-cl font-extrabold text-[35px] `}>
           Pricing
         </h1>
-        <p>In virtual space through communication platforms. </p>
+        <p className="max-w-[80%]">In virtual space through communication platforms. </p>
       </div>
 
       <div className="flex flex-col items-center justify-center md:flex-row md:gap-3">

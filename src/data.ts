@@ -139,3 +139,21 @@ export const testimonial = [
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A mollitia rerum quo unde neque atque molestias quas pariatur!Sint, maxime?",
   },
 ];
+
+export const stat = [
+  {
+    id: 1,
+    number: "25,356",
+    small: "Customers",
+  },
+  {
+    id: 2,
+    number: "1M+",
+    small: "Projects Done",
+  },
+  {
+    id: 3,
+    number: "95%",
+    small: "Happy Customers",
+  },
+];

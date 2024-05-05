@@ -6,12 +6,13 @@ import How from "../components/How";
 import Pricing from "../components/Pricing";
 import Header from "../ui/Header";
 import Testimonial from "../components/Testimonial";
+import Stat from "../components/Stat";
 
 export default function Home() {
   return (
     <>
       {/* px-[9rem] py-[1rem] */}
-      <main className="px-[4rem md:px-[9rem]">
+      <main className="">
        <Header />
 
         <LogosBar />
@@ -19,6 +20,7 @@ export default function Home() {
         <How />
         <Pricing />
         <Testimonial />
+        <Stat />
       </main>
     </>
   );

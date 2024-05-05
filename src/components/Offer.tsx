@@ -4,7 +4,7 @@ import { duru_Sans, poppins } from "../ui/font";
 
 export default function Offer() {
   return (
-    <section className="flex flex-col items-center justify-center px-[4rem] py-[0rem] md:px-[9rem] md:py-[1rem]">
+    <section className="px-[4rem] md:px-[9rem] flex flex-col items-center justify-center py-[0rem]  md:py-[1rem]">
       <div className="flex flex-col text-center justify-center items-center">
         <h1
           className={`${poppins.className} text-cl text-[32px] md:text-[52px] md:tracking-tighter	 head-txt`}

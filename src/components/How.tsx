@@ -7,7 +7,7 @@ import HowThree from "../ui/HowThree";
 export default function How() {
   return (
     <section
-      className={`px-[2rem] pt-14 py-[0rem] md:px-[9rem] md:py-[1rem] flex items-center justify-center flex-col gap-10 md:gap-4 md:grid grid-rows-2 grid-flow-col md:items-start`}
+      className={`px-[4rem] md:px-[9rem] pt-14 py-[0rem] md:py-[1rem] flex items-center justify-center flex-col gap-10 md:gap-4 md:grid grid-rows-2 grid-flow-col md:items-start`}
     >
       <div>
         <div className="flex items-center md:items-start justify-center flex-col">
