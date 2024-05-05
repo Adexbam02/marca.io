@@ -13,13 +13,14 @@ export default function Pricing() {
         <p>In virtual space through communication platforms. </p>
       </div>
 
-      <div>
+      <div className="flex flex-col items-center justify-center md:flex-row md:gap-3">
         <PricingCard
           who={`For Starter`}
           price={`$59`}
           color="bg-white"
           textColor=""
           priceValText="text-indigo-900"
+          padding="p-[30px]"
         />
         <PricingCard
           who={`For Teams`}
@@ -27,6 +28,7 @@ export default function Pricing() {
           color="bg-purple-950"
           textColor="text-white"
           priceValText="text-white"
+          padding="p-[35px]"
         />
         <PricingCard
           who={`For Company`}
@@ -34,6 +36,7 @@ export default function Pricing() {
           color="bg-white"
           textColor=""
           priceValText="text-indigo-900"
+          padding="p-[30px]"
         />
       </div>
     </section>

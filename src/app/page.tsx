@@ -5,6 +5,7 @@ import Offer from "../components/Offer";
 import How from "../components/How";
 import Pricing from "../components/Pricing";
 import Header from "../ui/Header";
+import Testimonial from "../components/Testimonial";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Offer />
         <How />
         <Pricing />
+        <Testimonial />
       </main>
     </>
   );
