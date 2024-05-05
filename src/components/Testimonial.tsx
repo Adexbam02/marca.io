@@ -7,15 +7,15 @@ export default function Testimonial() {
   return (
     <section className="px-[4rem] md:px-[9rem]">
       <div className="flex flex-col items-center justify-center gap-3 text-center mb-3">
-        <h1 className={`${exo.className} text-cl font-extrabold text-[35px] `}>
+        <h1 className={`${exo.className} text-cl font-extrabold text-[30px] md:text-[35px] leading-[3rem] `}>
           What Our Clients Say About Us
         </h1>
-        <p className="max-w-[80%]">
+        <p className="md:max-w-[80%]">
           Community development is often linked with community work or community
           planning, and may involve stakeholders, foundations,
         </p>
       </div>
-      <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-10">
+      <div className="mx-auto max-w-screen-xl px-4 py-10 sm:px-6 lg:px-8 lg:py-10">
         <div className=" [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
           <TestimonialCard
             userImg="/personOne.png"

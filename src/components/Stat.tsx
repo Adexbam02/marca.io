@@ -5,8 +5,8 @@ import { exo } from "../ui/font";
 
 export default function Stat() {
   return (
-    <section className="bg-violet-50 w-full py-12 px-[15rem]">
-      <div className="flex flex-wrap items-center justify-between text-center mb-10">
+    <section className="bg-violet-50 w-full py-12 px-[4rem] md:px-[15rem]">
+      <div className="flex flex-wrap gap-8 md:gap-0 items-center justify-center md:justify-between text-center mb-10">
         {stat.map(({ id, number, small }) => (
           <span key={id}>
             <h1 className="text-cl text-[35px] font-extrabold">{number}</h1>
@@ -19,11 +19,11 @@ export default function Stat() {
         <div className="
         flex flex-col items-center justify-center gap-[0.7rem] text-center">
           <h1
-            className={`${exo.className} text-cl font-extrabold text-[35px] `}
+            className={`${exo.className} text-cl font-extrabold text-[30px] md:text-[35px] leading-[3rem] `}
           >
             Want to start a Project With us?
           </h1>
-          <p className="max-w-[80%]">
+          <p className="md:max-w-[80%]">
             Warrant present garrets limited cordial in inquiry to. Supported me
             sweetness behaviour shameless excellent so arranging.
           </p>
