@@ -14,7 +14,27 @@ export default function Pricing() {
       </div>
 
       <div>
-        <PricingCard who={`For Starter`} price={`$59`}/>
+        <PricingCard
+          who={`For Starter`}
+          price={`$59`}
+          color="bg-white"
+          textColor=""
+          priceValText="text-indigo-900"
+        />
+        <PricingCard
+          who={`For Teams`}
+          price={`$99`}
+          color="bg-purple-950"
+          textColor="text-white"
+          priceValText="text-white"
+        />
+        <PricingCard
+          who={`For Company`}
+          price={`Custom`}
+          color="bg-white"
+          textColor=""
+          priceValText="text-indigo-900"
+        />
       </div>
     </section>
   );
