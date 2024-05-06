@@ -8,9 +8,9 @@ export default function Header() {
     <header className="px-[4rem] md:px-[9rem] flex flex-col md:py-[1rem] items-center  justify-between py-[0rem]">
       <div className="p-6 flex flex-col items-center justify-center  gap-3">
         <h1
-          className={`${exo.className} text-center  max-w-[700px] text-cl text-[50px] md:text-[70px] font-extrabold leading-none`}
+          className={`${exo.className} text-center  max-w-[700px] text-cl text-[50px] md:text-[3.75rem] font-extrabold leading-[1]`}
         >
-          Amplify your brand voice!
+          Amplifyy your brand voice!
         </h1>
         <p className={`max-w-[625px] ${duru_Sans.className} text-center `}>
           Welcome to our <span className="text-cl font-bold">Marca.io</span>,
