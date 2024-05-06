@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#FCFCFF] relative `}>
+      <body className={`${inter.className} bg-[#FCFCFF] relative overflow-x-hidden`}>
         <Navbar />
         {children}
         <Footer />
