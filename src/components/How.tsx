@@ -12,13 +12,13 @@ export default function How() {
     >
     {/* // <section className={`${colT} px-[4rem] md:px-[9rem] pt-14 py-[0rem] md:py-[1rem]`}> */}
       <div>
-        <div className="flex items-center md:items-start justify-center flex-col text-center">
+        <div className="flex items-center md:items-start md:text-left justify-center flex-col text-center">
           <h1
             className={`${exo.className} text-cl text-[32px] md:text-[52px] md:tracking-tighter	font-extrabold`}
           >
             How it Works?
           </h1>
-          <p className={`${duru_Sans.className} text-[12px] md:text-[15px] md:w-[80%] text-indigo-900 `}>
+          <p className={`${duru_Sans.className} text-[12px] md:text-[15px] md:w-[30rem] text-indigo-900 `}>
             Resolving neglected sir tolerably but existence conveying for. Day
             his put off unaffected literature partiality inhabiting.
           </p>

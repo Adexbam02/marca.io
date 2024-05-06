@@ -21,13 +21,13 @@ export default function Header() {
         <span className="flex items-center justify-center gap-4">
           <Link
             href={"/"}
-            className={`${roboto.className} w-[150px] h-[45px] rounded-[5px] gradient-bg font-bold flex items-center justify-center text-[16px] text-white`}
+            className={`${roboto.className}  w-[150px] h-[45px] rounded-[5px] gradient-bg font-bold flex items-center justify-center text-[16px] text-white`}
           >
             Get Started
           </Link>
           <Link
             href={"./contact-us"}
-            className={`${roboto.className} w-[150px] h-[45px] rounded-[5px] border-gradient font-bold text-bt flex items-center justify-center text-[16px] text-white`}
+            className={`${roboto.className} w-[150px] h-[45px] rounded-[5px] border-gradient font-bold text-bt flex items-center justify-center text-[16px] text-white btnBg`}
           >
             Contact Us
           </Link>
