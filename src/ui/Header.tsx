@@ -5,7 +5,7 @@ import { duru_Sans, poppins, roboto, exo } from "../ui/font";
 
 export default function Header() {
   return (
-    <header className="px-[1rem] md:px-[9rem] flex flex-col md:py-[1rem] items-center  justify-between py-[0rem]">
+    <header className="px-[2rem] md:px-[9rem] flex flex-col md:py-[1rem] items-center  justify-between py-[0rem]">
       <div className="p-6 flex flex-col items-center justify-center mb-[1.5rem] gap-3">
         <h1
           className={`${exo.className} text-center ] text-cl text-[50px] md:text-[4rem] font-extrabold md:leading-[5rem]`}
