@@ -1,16 +1,15 @@
 import React from "react";
-import { exo } from "../ui/font";
-import Image from "next/image";
+import { duru_Sans, exo } from "../ui/font";
 import TestimonialCard from "../ui/TestimonialCard";
 
 export default function Testimonial() {
   return (
-    <section className="px-[4rem] md:px-[9rem]">
+    <section className="px-[1rem] md:px-[9rem] pt-14 py-[0rem] md:py-[1rem]">
       <div className="flex flex-col items-center justify-center gap-3 text-center mb-3">
-        <h1 className={`${exo.className} text-cl font-extrabold text-[30px] md:text-[35px] leading-[3rem] `}>
+        <h1 className={`${exo.className} text-cl text-[32px] md:text-[52px] md:tracking-tighter	font-extrabold`}>
           What Our Clients Say About Us
         </h1>
-        <p className="md:max-w-[80%]">
+        <p className={`${duru_Sans.className} text-[12px] md:text-[15px] md:w-[80%] text-indigo-900 `}>
           Community development is often linked with community work or community
           planning, and may involve stakeholders, foundations,
         </p>
