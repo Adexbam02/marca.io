@@ -14,7 +14,7 @@ export default function Header() {
         </h1>
         <p className={`${duru_Sans.className} text-center w-[100%]`}>
           Crafted strategies, compelling designs, and impactful storytelling for
-          unforgettable brand experiences. Let`&apos;`s shape your brand journey
+          unforgettable brand experiences. Let&apos;s shape your brand journey
           together.
         </p>
         <span className="flex items-center justify-center gap-4">
