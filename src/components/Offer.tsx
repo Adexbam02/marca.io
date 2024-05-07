@@ -26,7 +26,7 @@ export default function Offer() {
                 <Image src={src} width={30} height={30} alt="" className="" />
               </span>
               <p
-                className={`${poppins.className} text-indigo-900 text-[25px] font-bold`}
+                className={`${poppins.className} text-indigo-900 text-[18px] md:text-[20px] font-bold`}
               >
                 {title}
               </p>

@@ -3,7 +3,7 @@ import CardOne from "./CardOne";
 export default function HowOne() {
   return (
     <div
-      className={`relativ w-fit gap-4 p-6 bg-blue-50 cbg rounded-[20px] flex flex-col items-center justify-between text-center shadow-md`}
+      className={`relative md:bottom-[15rem] w-fit gap-4 p-6 bg-blue-50 cbg rounded-[20px] flex flex-col items-center justify-between text-center shadow-md`}
     >
       <div className="flex flex-col items-center justify-center gap-2">
         <CardOne avatar="/Avatar.svg" />

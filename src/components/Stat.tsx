@@ -5,8 +5,8 @@ import { duru_Sans, exo } from "../ui/font";
 
 export default function Stat() {
   return (
-    <section className="bg-violet-50 w-full py-12 px-[1rem] md:px-[15rem]">
-      <div className="flex flex-wrap gap-8 md:gap-0 items-center justify-center md:justify-between text-center mb-10">
+    <section className="bg-violet-100 bg w-full py-12 px-[1rem] md:px-[15rem]">
+      <div className="flex md:px-20 flex-wrap gap-8 md:gap-0 items-center justify-center md:justify-between text-center mb-10">
         {stat.map(({ id, number, small }) => (
           <span key={id}>
             <h1 className="text-cl text-[35px] font-extrabold">{number}</h1>

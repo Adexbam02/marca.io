@@ -20,42 +20,42 @@ export default function Testimonial() {
             userImg="/personOne.png"
             name="Trade William"
             stars="/Review.svg"
-            comment="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus error officiis atque voluptates magnam!"
+            comment="Collaborating with Marca.io was delightful! Their creativity and professionalism resulted in designs that exceeded expectations. Highly recommended for exceptional branding."
           />
 
           <TestimonialCard
             userImg="/Avatar2.png"
             name="Nurain Bamidele"
             stars="/Review.svg"
-            comment="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad mollitia rerum quo unde neque atque molestias quas pariatur! Sint, maxime?"
+            comment="Working with Marca.io was a pleasure! Their creativity and professionalism resulted in designs that exceeded our expectations. Highly recommended for exceptional branding services."
           />
 
           <TestimonialCard
             userImg="/Avatar2.png"
             name="Rose Mosely"
             stars="/Review.svg"
-            comment="Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit esse delectus, maiores fugit, reiciendis culpa inventore sint accusantium libero dolore eos quasi a ex aliquam molestiae. Tenetur hic delectus maxime."
+            comment="Choosing Marca.io was one of the best decisions we made for our business. Their creativity and expertise helped us stand out in a competitive market. They listened to our needs and delivered outstanding results within our timeline."
           />
 
           <TestimonialCard
             userImg="/Avatar.svg"
             name="Wadnik Boser"
             stars="/Review.svg"
-            comment="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, fuga?"
+            comment="From the initial consultation to the final deliverables, Marca.io exceeded our expectations. Their innovative ideas brought our brand to life in ways we never imagined."
           />
 
           <TestimonialCard
             userImg="/Avatar.svg"
             name="Klopp Angap"
             stars="/Review.svg"
-            comment="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam quo reiciendis et enim, quam dignissimos voluptatibus neque, repudiandae ipsum quisquam veniam deserunt perferendis!"
+            comment="If you're looking for a branding agency that delivers results, look no further than Marca.io . Their team's passion for what they do shines through in their work."
           />
 
           <TestimonialCard
             userImg="/Avatar.svg"
             name="Moses Noah"
             stars="/Review.svg"
-            comment="Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nulla corporis consequuntur dignissimos explicabo culpa tempore provident, praesentium aut. Alias, molestiae."
+            comment="The team at Marca.io is incredibly talented and professional. They delivered beyond our expectations and helped elevate our brand."
           />
         </div>
       </div>

@@ -6,10 +6,10 @@ export default function CTA() {
   return (
     <section className="px-[1rem] md:px-[9rem] py-[3rem]">
       <div className="flex flex-col items-center justify-between text-center gap-14 ">
-        <h1 className={`${exo.className} text-cl text-[32px] md:text-[52px] md:tracking-tighter	font-extrabold`}>
+        <h1 className={`${exo.className} text-center text-cl text-[32px] md:w-[80%] md:leading-[3rem] md:text-[52px]  md:tracking-tighter	font-extrabold`}>
           Social Media Its Ways Of Our Excellence.
         </h1>
-        <form className="w-[90%] md:w-[65] h-[70px] bg-gray-800 rounded-[10px] shadow-inner flex items-center justify-between p-1">
+        <form className="w-[90%] md:w-[65%] h-[70px] bg-gray-800 rounded-[10px] shadow-inner flex items-center justify-between p-1">
           <input
             placeholder="Enter your Email..."
             type="email"
