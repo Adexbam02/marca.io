@@ -5,18 +5,17 @@ import { duru_Sans, poppins, roboto, exo } from "../ui/font";
 
 export default function Header() {
   return (
-    <header className="px-[2rem] md:px-[9rem] flex flex-col md:py-[1rem] items-center  justify-between py-[0rem]">
+    <header className="px-[1rem] md:px-[9rem] flex flex-col md:py-[1rem] items-center  justify-between py-[0rem]">
       <div className="p-6 flex flex-col items-center justify-center mb-[1.5rem] gap-3">
         <h1
-          className={`${exo.className} text-center ] text-cl text-[50px] md:text-[4rem] font-extrabold md:leading-[5rem]`}
+          className={`${exo.className} text-center ] text-cl text-[50px] md:text-[4rem] font-extrabold leading-[3rem] md:leading-[5rem]`}
         >
           Amplify your brand voice!
         </h1>
-        <p className={`max-w-[750px] ${duru_Sans.className} text-center `}>
-          Welcome to our <span className="text-cl font-bold">Marca.io</span>,
-          where creativity meets strategy to craft unforgettable brands. From
-          startups to enterprises, we are here to elevate your vision with
-          precision and purpose. Let`&apos;`s redefine your story together.
+        <p className={`${duru_Sans.className} text-center w-[100%]`}>
+          Crafted strategies, compelling designs, and impactful storytelling for
+          unforgettable brand experiences. Let`&apos;`s shape your brand journey
+          together.
         </p>
         <span className="flex items-center justify-center gap-4">
           <Link
@@ -33,7 +32,9 @@ export default function Header() {
           </Link>
         </span>
       </div>
-      <div className={` bg-gray-400/20 w-full shadow-md backdrop-blur p-[0.3rem]`}>
+      <div
+        className={` bg-gray-400/20 w-full shadow-md backdrop-blur p-[0.3rem]`}
+      >
         <Image
           src="/Dashboard4.svg"
           width={500}
