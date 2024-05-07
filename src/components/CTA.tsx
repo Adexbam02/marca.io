@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function CTA() {
   return (
     <section className="px-[1rem] md:px-[9rem] py-[2rem]">
-      <div className="flex flex-col items-center justify-between text-center gap-14 ">
+      <div className="flex flex-col items-center justify-between text-center gap-14 bgZigZag">
         <h1 className={`${exo.className} text-center text-cl text-[32px] md:w-[80%] md:leading-[3rem] md:text-[52px]  md:tracking-tighter	font-extrabold`}>
           Social Media Its Ways Of Our Excellence.
         </h1>

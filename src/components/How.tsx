@@ -8,7 +8,7 @@ export default function How() {
   const colT = `[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-1 lg:gap-8`;
   return (
     <section
-      className={`relative px-[1rem] md:px-[9rem] pt-14 py-[0rem] md:py-[1rem] flex items-center justify-center flex-col gap-10 md:gap-x-[0rem] md:grid grid-rows-2 grid-flow-col md:items-start`}
+      className={`bgHow relative px-[1rem] md:px-[9rem] pt-14 py-[0rem] md:py-[1rem] flex items-center justify-center flex-col gap-10 md:gap-x-[0rem] md:grid grid-rows-2 grid-flow-col md:items-start`}
     >
     {/* // <section className={`${colT} px-[4rem] md:px-[9rem] pt-14 py-[0rem] md:py-[1rem]`}> */}
       <div>

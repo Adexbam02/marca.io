@@ -5,7 +5,7 @@ import { duru_Sans, poppins, roboto, exo } from "../ui/font";
 
 export default function Header() {
   return (
-    <header className="px-[1rem] md:px-[9rem] flex flex-col md:py-[1rem] items-center  justify-between py-[0rem]">
+    <header className="bgHeader px-[1rem] md:px-[9rem] flex flex-col md:py-[1rem] items-center  justify-between py-[0rem]">
       <div className="p-6 flex flex-col items-center justify-center mb-[1.5rem] gap-3">
         <h1
           className={`${exo.className} text-center ] text-cl text-[50px] md:text-[4rem] font-extrabold leading-[3rem] md:leading-[5rem]`}
@@ -33,7 +33,7 @@ export default function Header() {
         </span>
       </div>
       <div
-        className={` bg-gray-400/20 w-full shadow-md backdrop-blur p-[0.3rem]`}
+        className={` bg-gray-400/20 w-full flex items-center justify-center shadow-md backdrop-blur p-[0.3rem]`}
       >
         <Image
           src="/Dashboard4.svg"
