@@ -22,7 +22,7 @@ export default function Offer() {
         {offer.map(({ id, src, title, content }) => (
           <div key={id} className="p-2">
             <div className="py-[3rem] px-[2rem] bg-white flex flex-col gap-3 items-start justify-between bg-hite rounded-[10px] drop-shadow-md">
-              <span className="w-[50px] h-[50px] bg-indigo-50 rounded-[40px] flex items-center justify-center ">
+              <span className="w-[50px] h-[50px] bg-indigo-50 rounded-[40px] flex items-center justify-center shadow-sm">
                 <Image src={src} width={30} height={30} alt="" className="" />
               </span>
               <p

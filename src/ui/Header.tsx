@@ -33,14 +33,14 @@ export default function Header() {
         </span>
       </div>
       <div
-        className={` bg-gray-400/20 w-full flex items-center justify-center shadow-md backdrop-blur p-[0.3rem]`}
+        className={` bg-gray-400/20 w-fit flex items-center justify-center shadow-md backdrop-blur p-[0.3rem]`}
       >
         <Image
           src="/Dashboard4.svg"
-          width={500}
-          height={500}
+          width={600}
+          height={600}
           alt=""
-          className="md:w-[60rem] p-1"
+          className="md:w-[70rem] p-1"
         />
       </div>
     </header>
