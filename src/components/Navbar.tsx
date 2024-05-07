@@ -18,10 +18,10 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  { name: "Dashboard", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
-  { name: "Projects", href: "#", current: false },
-  { name: "Calendar", href: "#", current: false },
+  { name: "Home", href: "#", current: true },
+  { name: "About Us", href: "#", current: false },
+  { name: "Services", href: "#", current: false },
+  { name: "Contact Us", href: "#", current: false },
 ];
 
 function classNames(...classes: string[]): string {
