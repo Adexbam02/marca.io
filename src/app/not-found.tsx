@@ -1,14 +1,4 @@
-
 import GradientButton from "../ui/GradientButton";
-// export default function NotFound() {
-//   return (
-//     <div>
-//       <h2>Not Found</h2>
-//       <p>Could not find requested resource</p>
-//       <Link href="/">Return Home</Link>
-//     </div>
-//   )
-// }
 
 export default function NotFound() {
   return (
@@ -23,12 +13,6 @@ export default function NotFound() {
         <p className="mt-4 text-gray-500">We can&apos;t find that page.</p>
 
         <GradientButton button="Go Back Home" link="/" />
-        {/* <Link
-          href={"/"}
-          className="mt-6 inline-block rounded bg-indigo-600 px-5 py-3 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring"
-        >
-          Go Back Home
-        </Link> */}
       </div>
     </div>
   );

@@ -1,3 +1,7 @@
+import Soon from "@/@/ui/Soon";
+
 export default function Services() {
-  return <div>services</div>;
+  return (
+    <Soon />
+  );
 }
