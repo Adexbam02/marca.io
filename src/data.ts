@@ -157,3 +157,17 @@ export const stat = [
     small: "Happy Customers",
   },
 ];
+
+interface NavigationItem {
+  id: number;
+  name: string;
+  link: string;
+  current: boolean;
+}
+
+export const navigation: NavigationItem[] = [
+  { id: 1, name: "Home", link: "/", current: true },
+  { id: 2, name: "About Us", link: "/about-us", current: false },
+  { id: 3, name: "Services", link: "/services", current: false },
+  { id: 4, name: "Contact Us", link: "/contact-us", current: false },
+];
